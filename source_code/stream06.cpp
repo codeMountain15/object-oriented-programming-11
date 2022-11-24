@@ -1,5 +1,5 @@
 // stream06.cpp 
-// an example of the fstream class implementation
+// an example of the fstream class
 
 
 #include <iostream>
@@ -18,9 +18,7 @@ int main()
 	// ios::trunc mode deletes all the file content before opening it
 	
 	obj.open("donkey.txt", ios::app);
-	cout << "Type a message to the donkey!\n";
-	cin >> temp;
-
+	
 	// insert to file loop
 	while ((temp != "0") && obj.is_open()) {
 		cout << "Type a message to the donkey!\n";
