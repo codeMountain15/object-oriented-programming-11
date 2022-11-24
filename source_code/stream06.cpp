@@ -27,12 +27,10 @@ int main()
 	}
 	obj.close();
 
-
 	obj.open("donkey.txt", ios::in);
 
 	// read from file loop
 	while (obj >> temp) {
-
 		cout << temp << endl;
 	}
 	obj.close();
