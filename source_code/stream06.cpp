@@ -22,7 +22,7 @@ int main()
 	// insert to file loop
 	while ((temp != "0") && obj.is_open()) {
 		cout << "Type a message to the donkey!\n";
-		obj << temp;
+		obj << temp << endl;
 		cin >> temp;
 	}
 	obj.close();
