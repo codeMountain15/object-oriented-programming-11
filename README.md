@@ -1,6 +1,7 @@
 # Εισαγωγή στον Αντικειμενοστραφή Προγραμματισμό
 
-- [ ] under construction!
+- [ ] Streams (paradigm)
+- [ ] Include (paradigm)
 
 
 ## Πηγές
